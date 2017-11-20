@@ -11,7 +11,6 @@ if len(sys.argv) < 4:
 gallery_name = sys.argv[1]
 username = sys.argv[2]
 password = sys.argv[3]
-gallery_type = ''
 is_minor = False
 if None is sys.argv[4] and sys.argv[4] == '-m':
     is_minor = True
